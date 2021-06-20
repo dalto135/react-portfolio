@@ -1,10 +1,11 @@
 import React from 'react';
+import Project from './project';
 
 function Projects() {
     return (
         <section id="work-me">
             <div class="title">
-                <h1>Work</h1>
+                <h1>Projects</h1>
             </div>
             
             <div class="content" id="work">
@@ -83,8 +84,9 @@ function Projects() {
                     </div>
 
                 </div>
-                
+                <Project/>
             </div>
+            
         </section>
     );
 }
