@@ -4,24 +4,14 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <header id='header'>
-            {/* <h1 id='title'>
-                <Link to='/'>Employee Directory</Link>
-            </h1>
-            <div id='view'>
-                <Link to='/'>View Employees</Link>
-                <Link to='/sort'>View Sorted</Link>
-            </div> */}
 
-
-
-            {/* <header id="header"> */}
             <div id="name">
                 <h1>Dalton Wilkins</h1>
                 
             </div>
             
             <div class='headshot'>
-                {/* <img src='./assets/images/headshot.jpg'> */}
+                {/* <img src='../assets/images/headshot.jpg' alt='headshot'></img> */}
 
                 <div id="shortcuts">
                     <Link to='/'>About Me</Link>
@@ -31,6 +21,10 @@ function Header() {
                     {/* <!-- <a href="https://drive.google.com/file/d/14IgY0ERipLtSLQX5bAk-OVvs_JuXVkxk/view?usp=sharing" target="_blank">Brand Statement</a> --> */}
                 </div>
             </div>
+
+            <section id="image">
+                <h1>A vision for the future</h1>
+            </section>
             
         </header>
 

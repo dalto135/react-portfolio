@@ -70,7 +70,7 @@ a:hover {
 #image {
     justify-content: flex-end;
     align-items: flex-end;
-    background-image: url("./images/solarpunk.png");
+    background-image: url("./assets/images/solarpunk.png");
     height: 150px;
     border-color: black;
 }
