@@ -12,7 +12,6 @@ function Header() {
             </div>
             
             <div className='headshot'>
-                {/* <img src='../src/assets/images/headshot.jpg' alt='headshot'/> */}
                 <img src={Headshot} alt='headshot'/>
 
                 <div id="shortcuts">
