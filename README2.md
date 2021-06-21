@@ -11,7 +11,7 @@
 [Contact](#Contact)
 
 ## Link
-https://dalto135.github.io/portfolio/
+https://dalto135.github.io/react-portfolio/
 
 ## Technologies
 HTML and CSS, Javascript, React
