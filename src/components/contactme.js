@@ -3,11 +3,11 @@ import React from 'react';
 function Contactme() {
     return (
         <section id="contact-me">
-            <div class="title">
+            <div className="title">
                 <h1>Contact Me</h1>
             </div>
             
-            <address class="content">
+            <address className="content">
                 <a href="tel:+16142577681">614-257-7681</a>
                 <a href="mailto:daltongh@gmail.com">daltongh@gmail.com</a>
                 <a href="https://www.linkedin.com/in/dalton-wilkins/" target="_blank" rel='noreferrer'>LinkedIn</a>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Headshot from '../assets/images/headshot.jpg';
 
 function Header() {
     return (
@@ -10,8 +11,9 @@ function Header() {
                 
             </div>
             
-            <div class='headshot'>
-                {/* <img src='../assets/images/headshot.jpg' alt='headshot'></img> */}
+            <div className='headshot'>
+                {/* <img src='../src/assets/images/headshot.jpg' alt='headshot'/> */}
+                <img src={Headshot} alt='headshot'/>
 
                 <div id="shortcuts">
                     <Link to='/'>About Me</Link>
