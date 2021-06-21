@@ -61,10 +61,6 @@ function Projects() {
                     <Project title={titles[1]} link={links[1]} screenshot={Screenshot2} description={descriptions[1]} githubLink={githubLinks[1]}/>
                
                 </div>
-
-                <div className='big'>
-
-                </div>
                 
                 {/* Row two projects */}
                 <div className="big">
