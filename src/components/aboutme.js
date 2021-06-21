@@ -4,7 +4,7 @@ function Aboutme() {
     return (
         <section id="about-me">
             <div className="title">
-                <h1>About Me</h1>
+                <h1>About Ye</h1>
                 {/* <img src='./assets/images/headshot.jpg' id='headshot'> */}
             </div>
             
