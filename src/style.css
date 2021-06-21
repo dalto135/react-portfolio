@@ -19,7 +19,6 @@ address {
 footer {
     border-color: var(--niceTeal);
     text-align: center;
-    /* background-color: var(--pastelBlue); */
 }
 
 address,
@@ -28,7 +27,7 @@ footer {
     flex-wrap: wrap;
 }
 
-footer h1 {
+footer h2 {
     background-color: var(--pastelBlue);
     flex: 1 1;
 }
@@ -109,12 +108,6 @@ a:hover {
     max-height: 300px;
     padding: 0px;
     margin: 6px 3px;
-    
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* margin-left: auto;
-    margin-right: auto; */
 }
 
 .content {
@@ -188,29 +181,9 @@ a:hover {
     flex-wrap: wrap;
 }
 
-/* Placeholder images for future projects */
-#wow {
-    /* background-image: url("../images/abstract1.jpg"); */
-    /* background-color: rgb(40, 48, 64); */
-}
-
-#project {
-    /* background-image: url("../images/abstract2.jpg"); */
-    /* background-color: rgb(40, 48, 64); */
-}
-
 #code {
-    /* background-image: url("../images/abstract3.jpg"); */
     background-color: rgb(40, 48, 64);
     border: 1px solid black;
-}
-
-#pollution {
-    /* background-image: url("../images/7f1e0d2ac3bd87d6f57f73492d3bf6d1.jpg"); */
-}
-
-#spicy {
-    /* background-image: url("../images/1033b72b0d4c935ac1151d8cecddac8e.jpg"); */
 }
 
 #me,
@@ -239,11 +212,6 @@ a img:hover {
     min-height: 500px;
 }
 
-/* #employee-tracker img {
-    margin: 0px 3px;
-    width: 100%;
-} */
-
 .small img {
     max-width: 100%;
     flex: 1 1;
@@ -254,10 +222,6 @@ a img:hover {
 .big a {
     font-size: 16pt;
 }
-
-/* #contact-me img {
-    margin: 0px 3px 3px 3px;
-} */
 
 .small .project {
     margin: 0px 3px;
@@ -297,16 +261,10 @@ header {
     .title {
         text-align: left;
     }
-
-    /* .headshot img {
-        text-align: center;
-    } */
     
     #image {
         display: flex;
     }
-
-    
 
     #contact-me a {
         margin: 0px 3px 6px 3px;

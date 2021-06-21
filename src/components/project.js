@@ -5,7 +5,7 @@ function Project({title, link, screenshot, description, githubLink}) {
         <div id="code" className="small">
             <h1>{title}</h1>
             <a href={link} className="project" target="_blank" rel='noreferrer'>
-                <img src={screenshot} alt={title}></img>
+                <img src={screenshot} alt={title}/>
             </a>
             <p>{description}</p>
             <a href={githubLink} className="github" target="_blank" rel='noreferrer'>GitHub</a>

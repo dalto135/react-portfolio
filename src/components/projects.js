@@ -16,8 +16,8 @@ function Projects() {
         'Employee Tracker',
         'Weather Dashboard',
         'Coding Quiz Challenge',
-        
     ];
+
     let links = [
         'https://glacial-fortress-45860.herokuapp.com/',
         'https://dalto135.github.io/dine-or-dash/',
@@ -25,8 +25,8 @@ function Projects() {
         'https://drive.google.com/file/d/1PRgjvLbEubjJbmaixVOPNbvKF6S-0zwB/view',
         'https://dalto135.github.io/weather-dashboard/',
         'https://dalto135.github.io/coding-quiz-challenge/',
-        
     ];
+
     let descriptions = [
         'An web application that allows users to post and search for items that have been reported missing. Technologies used include Sequelize, Javascript, Handlebars, and MYSQL2.',
         'A webpage that prompts the user to enter a food dish and location, and displays a list of recipies and local restaurants that match their dish. Technologies used include HTML, CSS, Javascript, and API integration.',
@@ -35,15 +35,15 @@ function Projects() {
         'A webpage that prompts the user to enter a city name, and displays current weather conditions for that city in addition to a 5 day forecast. Technologies used include HTML, CSS, Javascript, and API integration.',
         'A web application that presents an interactive Javascript quiz. The quiz is timed and time is deducted if a question is answered wrong. The quiz ends when all questions are answered or the timer runs out, and the user can store their score after typing in their initials.',
     ];
+
     let githubLinks = [
         'https://github.com/Youngin9210/Lost-Found',
         'https://github.com/dalto135/dine-or-dash',
         'https://github.com/dalto135/tech-blog',
         'https://github.com/dalto135/employee-tracker',
         'https://github.com/dalto135/weather-dashboard',
-        'https://github.com/dalto135/coding-quiz-challenge'
+        'https://github.com/dalto135/coding-quiz-challenge',
     ];
-
 
     return (
         <section id="work-me">
