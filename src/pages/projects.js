@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from './project';
+import Project from '../components/project';
 import Screenshot1 from '../assets/images/global-lost-and-found.png';
 import Screenshot2 from '../assets/images/dine-or-dash.png';
 import Screenshot3 from '../assets/images/tech-blog.png';
