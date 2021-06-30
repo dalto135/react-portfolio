@@ -6,7 +6,7 @@ function Project(props) {
 
     return (
         <div id="code" className="small">
-            <h1>{props.title}</h1>
+            <h2>{props.title}</h2>
             <a href={props.link} className="project" target="_blank" rel='noreferrer'>
                 <img src={props.screenshot} alt={props.title}/>
             </a>

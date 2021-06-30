@@ -27,9 +27,10 @@ footer {
     flex-wrap: wrap;
 }
 
-footer h2 {
+footer h2, footer h3 {
     background-color: var(--pastelBlue);
     flex: 1 1;
+    padding: 3px;
 }
 
 address {
@@ -102,7 +103,7 @@ a:hover {
 }
 
 .title h1 {
-    font-size: 4vw;
+    /* font-size: 4vw; */
 }
 
 .headshot img {
@@ -127,10 +128,8 @@ a:hover {
 }
 
 #work h2 {
-    flex: 1 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    text-align: center;
+    background-color: var(--pastelTeal);
 }
 
 #name {
@@ -142,7 +141,7 @@ a:hover {
 }
 
 #name h1 {
-    font-size: 4vw;
+    /* font-size: 4vw; */
     border-color: black;
     background-color: var(--pastelBlue);
     margin-bottom: 0px;
@@ -214,10 +213,6 @@ a img:hover {
     margin: 0px 3px;
     background-color: rgb(40, 48, 64);
     /* width: 50%; */
-}
-
-.small h1 {
-    text-align: center;
 }
 
 .small img {
