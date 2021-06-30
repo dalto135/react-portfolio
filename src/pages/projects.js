@@ -48,7 +48,7 @@ function Projects() {
             title: 'Tech Blog',
             link: 'https://intense-sea-31464.herokuapp.com/',
             screenshot: Screenshot5,
-            description: 'A social networking website that allows users to create an account, make blog posts, and leave comments on posts others have made. Users can go to their personal dashboards, where they can see a list of posts they have made and are prompted to make new posts.',
+            description: 'A social networking website that allows users to create an account, make blog posts, and leave comments on posts others have made. Technologies used include HTML, CSS, Javascript, MYSQL2, Sequelize, and Handlebars.',
             github: 'https://github.com/dalto135/tech-blog'
         },
         {
