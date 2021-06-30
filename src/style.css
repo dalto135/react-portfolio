@@ -120,6 +120,8 @@ a:hover {
     border-width: 0;
     padding: 0;
     margin: 0;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
 }
 
 #work h2 {
@@ -209,8 +211,7 @@ a img:hover {
     flex-wrap: wrap;
     margin: 0px 3px;
     background-color: rgb(40, 48, 64);
-    /* min-height: 500px; */
-    width: 50%;
+    /* width: 50%; */
 }
 
 .small img {
