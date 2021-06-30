@@ -216,6 +216,10 @@ a img:hover {
     /* width: 50%; */
 }
 
+.small h1 {
+    text-align: center;
+}
+
 .small img {
     max-width: 100%;
     flex: 1 1;
