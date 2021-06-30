@@ -21,10 +21,10 @@ function Projects() {
         },
         {
             title: 'Dine or Dash',
-            link: 'https://dalto135.github.io/dine-or-dash/',
+            link: 'https://sarehontaylor.github.io/DineOrDash/',
             screenshot: Screenshot2,
             description: 'A webpage that prompts the user to enter a food dish and location, and displays a list of recipies and local restaurants that match their dish. Technologies used include HTML, CSS, Javascript, and API integration.',
-            github: 'https://github.com/dalto135/dine-or-dash'
+            github: 'https://github.com/SarehonTaylor/DineOrDash'
         },
         {
             title: 'Tech Blog',
