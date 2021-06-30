@@ -87,7 +87,6 @@ function Projects() {
                 </div>
 
                 {/* /* Row three projects */}
-                
                 <div className="big">
 
                     <Project title={projects[4].title} link={projects[4].link} screenshot={projects[4].screenshot} description={projects[4].description} github={projects[4].github}/>
