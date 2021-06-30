@@ -20,7 +20,7 @@ function Projects() {
             title: 'Bread Exchange',
             link: 'https://bread-exchange.herokuapp.com/',
             screenshot: Screenshot1,
-            description: 'Bread exchange is a webpage using the MERN stack which aims to decrease food waste and bring the community together. We allow individuals and businesses to make their foods available on our site, and connect with others in the community who are experiencing food shortages.',
+            description: 'A MERN stack webpage that allows users to create an account and make posts describing leftover food they are willing to give away. Technologies used include HTML, CSS, Javascript, MongoDB, Express, React, and Node.',
             github: 'https://github.com/dalto135/bread-exchange'
         },
         {
@@ -41,7 +41,7 @@ function Projects() {
             title: 'Google Books Search',
             link: 'https://sheltered-ocean-65878.herokuapp.com/',
             screenshot: Screenshot4,
-            description: 'A react webpage that uses the Google Books API to provide a search engine for all of the books Google has made available. Users can make searches to access Google Books and add books to their favorites.',
+            description: 'A React webpage that uses the Google Books API to provide a Google Books search engine. Users can make searches to access Google Books and add books to their favorites. Technologies used include HTML, CSS, Javascript, MERN stack and API integration.',
             github: 'https://github.com/dalto135/google-books-search'
         },
         {
