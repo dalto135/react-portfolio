@@ -7,6 +7,8 @@ import Screenshot3 from '../assets/images/tech-blog.png';
 import Screenshot4 from '../assets/images/employee-tracker.png';
 import Screenshot5 from '../assets/images/weather-dashboard.png';
 import Screenshot6 from '../assets/images/coding-quiz-challenge.png';
+import Screenshot7 from '../assets/images/bread-exchange.png';
+import Screenshot8 from '../assets/images/google-books-search.png';
 
 
 function Projects() {
@@ -54,6 +56,20 @@ function Projects() {
             description: 'A web application that presents an interactive Javascript quiz. The quiz is timed and time is deducted if a question is answered wrong. The quiz ends when all questions are answered or the timer runs out, and the user can store their score after typing in their initials.',
             github: 'https://github.com/dalto135/coding-quiz-challenge'
         },
+        {
+            title: 'Bread Exchange',
+            link: 'https://bread-exchange.herokuapp.com/',
+            screenshot: Screenshot7,
+            description: 'Bread exchange is a webpage using the MERN stack which aims to decrease food waste and bring the community together. We allow individuals and businesses to make their foods available on our site, and connect with others in the community who are experiencing food shortages.',
+            github: 'https://github.com/dalto135/bread-exchange'
+        },
+        {
+            title: 'Google Books Search',
+            link: 'https://sheltered-ocean-65878.herokuapp.com/',
+            screenshot: Screenshot8,
+            description: 'A react webpage that uses the Google Books API to provide a search engine for all of the books Google has made available. Users can make searches to access Google Books and add books to their favorites.',
+            github: 'https://github.com/dalto135/google-books-search'
+        },
     ];
 
     return (
@@ -92,6 +108,15 @@ function Projects() {
                     <Project title={projects[4].title} link={projects[4].link} screenshot={projects[4].screenshot} description={projects[4].description} github={projects[4].github}/>
 
                     <Project title={projects[5].title} link={projects[5].link} screenshot={projects[5].screenshot} description={projects[5].description} github={projects[5].github}/>
+
+                </div>
+
+                {/* /* Row four projects */}
+                <div className="big">
+
+                    <Project title={projects[6].title} link={projects[6].link} screenshot={projects[6].screenshot} description={projects[6].description} github={projects[6].github}/>
+
+                    <Project title={projects[7].title} link={projects[7].link} screenshot={projects[7].screenshot} description={projects[7].description} github={projects[7].github}/>
 
                 </div>
                 
