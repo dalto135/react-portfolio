@@ -1,14 +1,17 @@
 import React from 'react';
 
-function Project({title, link, screenshot, description, githubLink}) {
+function Project(props) {
+
+    // const { title, link, screenshot, description, github } = props;
+
     return (
         <div id="code" className="small">
-            <h1>{title}</h1>
-            <a href={link} className="project" target="_blank" rel='noreferrer'>
-                <img src={screenshot} alt={title}/>
+            <h1>{props.title}</h1>
+            <a href={props.link} className="project" target="_blank" rel='noreferrer'>
+                <img src={props.screenshot} alt={props.title}/>
             </a>
-            <p>{description}</p>
-            <a href={githubLink} className="github" target="_blank" rel='noreferrer'>GitHub</a>
+            <p>{props.description}</p>
+            <a href={props.github} className="github" target="_blank" rel='noreferrer'>GitHub</a>
         </div>
     );
 }
