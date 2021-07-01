@@ -19,8 +19,10 @@ function Header() {
                         <Link to='/'>About Me</Link>
                         <Link to='/projects'>Projects</Link>
                         <Link to='/contactme'>Contact Me</Link>
-                        <a href="https://drive.google.com/file/d/19fEXc-UwH_rd4qKfTBPd_yd3_9uusd6c/view?usp=sharing" target="_blank" rel='noreferrer'>Resume</a>
-                        {/* <!-- <a href="https://drive.google.com/file/d/14IgY0ERipLtSLQX5bAk-OVvs_JuXVkxk/view?usp=sharing" target="_blank">Brand Statement</a> --> */}
+                        <a href='https://drive.google.com/file/d/19fEXc-UwH_rd4qKfTBPd_yd3_9uusd6c/view?usp=sharing' target='_blank' rel='noreferrer'>
+                            Resume
+                        </a>
+                        {/* <a href='https://drive.google.com/file/d/14IgY0ERipLtSLQX5bAk-OVvs_JuXVkxk/view?usp=sharing' target='_blank' rel='noreferrer'>Brand Statement</a> */}
                     </div>
                 </div>
 

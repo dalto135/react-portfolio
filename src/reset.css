@@ -37,6 +37,7 @@ html {
 body {
     border-color: var(--blue);
     margin: 6px;
+    border-radius: 12px;
 }
 
 header {
