@@ -27,11 +27,24 @@ footer {
     flex-wrap: wrap;
 }
 
-footer h2, footer h3 {
+footer h2, footer h3, footer a {
     background-color: var(--pastelBlue);
     flex: 1 1;
     padding: 3px;
 }
+
+footer h3 {
+    border-width: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* footer a {
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+} */
+
+
 
 address {
     justify-content: space-evenly;
@@ -68,14 +81,19 @@ a {
     font-size: 24pt;
 }
 
+
+
 /* Places a gradient image on link elements when they are hovered over with the cursor */
 a:hover {
-    color: white;
-    background-image: linear-gradient(var(--mint), var(--blue));
-    background-color: (rgba(0, 0, 0, 0));
-    text-shadow: 2px 2px 2px black;
-    /* box-shadow: 2px 2px 2px white; */
-    /* border-color: var(--nonPastelGreen); */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+footer a:hover {
+    background-image: linear-gradient(rgb(128, 186, 255), rgba(0, 0, 0, 0));
+}
+
+.github:hover {
+    background-image: linear-gradient(rgb(144, 223, 160), rgba(0, 0, 0, 0));
 }
 
 /* Specifies text attributes and layout for individual elements */

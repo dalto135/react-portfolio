@@ -3,7 +3,9 @@ import React from 'react';
 function Footer() {
     return (
         <footer>
-            <h3>This Portfolio was created with React!</h3>
+            <a href='https://github.com/dalto135/react-portfolio' target="_blank" rel='noreferrer'>
+                This Portfolio was created with React!
+            </a>
         </footer>
     );
 }
