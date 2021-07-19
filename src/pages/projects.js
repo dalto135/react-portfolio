@@ -18,7 +18,7 @@ function Projects() {
     let projects = [
         {
             title: 'Bread Exchange',
-            link: 'https://bread-exchange-123.herokuapp.com/',
+            link: 'https://bread-exchange-123.herokuapp.com/#/',
             screenshot: Screenshot1,
             description: 'A MERN stack webpage that allows users to create an account and make posts describing leftover food they are willing to give away. Technologies used include HTML, CSS, Javascript, MongoDB, Express, React, and Node.',
             github: 'https://github.com/dalto135/bread-exchange'
