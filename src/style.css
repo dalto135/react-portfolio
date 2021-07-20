@@ -77,6 +77,10 @@ p {
     /* background-color: var(--cloudy); */
 }
 
+/* #me p {
+    color: white;
+} */
+
 a {
     text-decoration-line: none;
     background-color: var(--cloudy);

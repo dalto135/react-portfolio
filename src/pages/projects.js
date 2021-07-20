@@ -111,7 +111,7 @@ function Projects() {
 
                     <Project title={projects[4].title} link={projects[4].link} screenshot={projects[4].screenshot} description={projects[4].description} github={projects[4].github}/>
 
-                    <Project title={projects[5].title} link={projects[5].link} screenshot={projects[5].screenshot} description={projects[5].description} github={projects[5].github}/>
+                    <Project title={projects[6].title} link={projects[6].link} screenshot={projects[6].screenshot} description={projects[6].description} github={projects[6].github}/>
 
                 </div>
 
