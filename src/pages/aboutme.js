@@ -9,7 +9,7 @@ function Aboutme() {
             </div>
             
             <div className="content" id="me">
-                <p>Highly motivated and technically skilled Full-Stack Developer looking for a challenging position in Web Development. Has a certificate from the Full-Stack Web Development Bootcamp at The Ohio State University and a Bachelor’s of Science degree in Neuroscience from The Ohio State University. Enjoys working with others to solve complex problems using development skills that include HTML, CSS, Javascript, SQL, Git, React.js and others, and possesses soft skills that include conflict resolution, effective communication, flexibility and humility in leadership. These experiences and certifications have given me the work ethic and analytical skills needed to pursue a career in Web Development and beyond.</p>
+                <p>Highly motivated and technically skilled Full-stack Developer at Nationwide. Has a certificate from the Full-stack Web Development Bootcamp at The Ohio State University and a Bachelor’s degree in Neuroscience from The Ohio State University. Enjoys working with others to solve complex problems using development skills that include HTML, CSS, Javascript, SQL, Git, React.js and others, and possesses soft skills that include conflict resolution, effective communication, flexibility and humility in leadership. These experiences and certifications have given me the drive and analytical skills needed to succeed in my Software Development career and beyond.</p>
             </div>
         </section>
     );
