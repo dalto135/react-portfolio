@@ -70,10 +70,10 @@ p {
     /* background: var(--cloudy); */
     text-align: left;
     color: rgba(255, 255, 255, 0.75);
-    /* border-width: 0px; */
-    border-color: var(--cloudy);
-    /* padding: 0px; */
-    padding: 6px;
+    border-width: 0px;
+    /* border-color: var(--cloudy); */
+    padding: 0px;
+    /* padding: 6px; */
     /* background-color: var(--cloudy); */
 }
 
@@ -85,6 +85,7 @@ a {
     text-decoration-line: none;
     background-color: var(--cloudy);
     font-size: 18pt;
+    text-align: center;
 }
 
 .small a {
@@ -128,6 +129,7 @@ footer a:hover {
     border-width: 1px;
     padding: 3px;
     margin: 6px 3px;
+    text-align: center;
 }
 
 .title {
