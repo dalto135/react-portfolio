@@ -376,3 +376,9 @@ header {
         text-align: center;
     }
 }
+
+@media screen and (max-width: 200px) {
+    * {
+        font-size: 15vw;
+    }
+}

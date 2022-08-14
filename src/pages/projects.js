@@ -72,8 +72,6 @@ function Projects() {
             description: 'A web application that presents an interactive Javascript quiz. The quiz is timed and time is deducted if a question is answered wrong. The quiz ends when all questions are answered or the timer runs out, and the user can store their score after typing in their initials.',
             github: 'https://github.com/dalto135/coding-quiz-challenge'
         },
-        
-       
     ];
 
     return (
@@ -106,7 +104,7 @@ function Projects() {
 
                 </div>
 
-                {/* /* Row three projects */}
+                {/* Row three projects */}
                 <div className="big">
 
                     <Project title={projects[4].title} link={projects[4].link} screenshot={projects[4].screenshot} description={projects[4].description} github={projects[4].github}/>
@@ -115,7 +113,7 @@ function Projects() {
 
                 </div>
 
-                {/* /* Row four projects */}
+                {/* Row four projects */}
                 {/* <div className="big">
 
                     <Project title={projects[6].title} link={projects[6].link} screenshot={projects[6].screenshot} description={projects[6].description} github={projects[6].github}/>
