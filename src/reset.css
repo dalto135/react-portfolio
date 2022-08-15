@@ -40,17 +40,9 @@ body {
     border-radius: 12px;
 }
 
-header {
-    border-color: var(--green);
-}
-
 section {
     border-color: var(--teal);
     display: flex;
-}
-
-footer {
-    border-color: var(--green);
 }
 
 div {
@@ -99,12 +91,6 @@ ul {
 .div h1 {
     text-align: center;
     background-color: var(--pastelGreen);
-}
-
-#header h1 {
-    background-color: rgba(0, 0, 0, 0);
-    display: flex;
-    justify-content: center;
 }
 
 #links, #view {

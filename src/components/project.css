@@ -1,0 +1,81 @@
+.small {
+    justify-content: flex-end;
+    border: 1px solid var(--cloudy);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 3px;
+    padding: 0px;
+    /* background-color: rgb(40, 48, 64); */
+    /* width: 50%; */
+}
+
+.small a {
+    font-size: 24pt;
+}
+
+.small img {
+    max-width: 100%;
+    flex: 1 1;
+    padding: 0;
+    margin: 0;
+    border-radius: 0px;
+    border-width: 1px 0px 0px 0px;
+    border-color: var(--cloudy);
+}
+
+.small p {
+    height: 180px;
+    overflow: scroll;
+    /* background: none; */
+    /* color: rgba(255, 255, 255, 0.75); */
+    border-radius: 0px;
+    border-color: var(--cloudy);
+    border-width: 1px 0px;
+    margin: 0px;
+    padding: 6px;
+}
+
+.small .project {
+    /* margin: 0px; */
+    /* border-width: 0px; */
+    /* border-radius: 0px; */
+    /* border-color: none; */
+    padding: 3px;
+    background-color: var(--pastelBlue);
+    text-align: center;
+}
+
+.project:hover {
+    background-image: linear-gradient(rgb(128, 186, 255), rgba(0, 0, 0, 0));
+}
+
+.github:hover {
+    background-image: linear-gradient(rgb(144, 223, 160), rgba(0, 0, 0, 0));
+}
+
+.project {
+    border: 0;
+    padding: 0;
+    display: flex;
+}
+
+.github {
+    /* margin: 0px 3px 6px 3px; */
+    margin: 6px;
+    background-color: var(--pastelGreen);
+}
+
+@media screen and (max-width: 768px) {
+    .small {
+        margin: 6px 3px;
+        justify-content: center;
+    }
+
+    .small p {
+        height: 120px;
+    }
+
+    .small a {
+        font-size: 16pt;
+    }
+}

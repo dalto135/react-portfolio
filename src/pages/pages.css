@@ -1,0 +1,25 @@
+.content {
+    border-width: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    flex: 0.3 0.3;
+    text-align: right;
+    border-width: 0;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 980px) {
+    .title {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        text-align: center;
+    }
+}

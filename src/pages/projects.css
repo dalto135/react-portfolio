@@ -1,0 +1,36 @@
+#work {
+    border-width: 0;
+    padding: 0;
+    margin: 0;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+#work h2 {
+    text-align: center;
+    /* background-color: var(--pastelTeal); */
+    /* background-color: rgb(40, 48, 64); */
+    background: none;
+    color: white;
+    border-width: 0px;
+    padding: 0px;
+    /* text-shadow: black 3px 3px 3px; */
+}
+
+.big {
+    border: 0;
+    margin: 6px 0px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.big a {
+    font-size: 16pt;
+}
+
+@media screen and (max-width: 768px) {
+    .big {
+        display: block;
+    }
+}

@@ -1,4 +1,6 @@
 import React from 'react';
+import './pages.css';
+import './aboutme.css';
 
 function Aboutme() {
     return (

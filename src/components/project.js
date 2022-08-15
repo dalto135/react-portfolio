@@ -1,11 +1,13 @@
 import React from 'react';
+import './components.css';
+import './project.css';
 
 function Project(props) {
 
     // const { title, link, screenshot, description, github } = props;
 
     return (
-        <div id="code" className="small">
+        <div className="small">
             <h2>{props.title}</h2>
             <img src={props.screenshot} alt={props.title}/>
             <p>{props.description}</p>

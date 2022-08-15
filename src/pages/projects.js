@@ -1,5 +1,7 @@
 import React from 'react';
 import Project from '../components/project';
+import './pages.css';
+import './projects.css';
 
 import Screenshot1 from '../assets/images/bread-exchange.png';
 import Screenshot2 from '../assets/images/global-lost-and-found.png';
@@ -87,7 +89,7 @@ function Projects() {
                 )} */}
                 
                 {/* Row one projects */}
-                <div className='big'>
+                <div className="big">
 
                     <Project title={projects[0].title} link={projects[0].link} screenshot={projects[0].screenshot} description={projects[0].description} github={projects[0].github}/>
 

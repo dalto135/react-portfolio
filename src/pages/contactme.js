@@ -1,4 +1,6 @@
 import React from 'react';
+import './pages.css';
+import './contactme.css';
 
 function Contactme() {
     return (

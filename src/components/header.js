@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Headshot from '../assets/images/headshot.jpg';
+import './components.css';
+import './header.css';
 
 function Header() {
     return (
@@ -9,12 +11,15 @@ function Header() {
 
                 <div id="name">
                     <h1>Dalton Wilkins</h1>
-                    
                 </div>
                 
                 <div className='headshot'>
                     <img src={Headshot} alt='headshot'/>
-
+                    <form>
+                        <label>Dark Mode</label>
+                        <input type="checkbox" id="darkmode" checked/>
+                    </form>
+                    
                     <div id="shortcuts">
                         <Link to='/'>About Me</Link>
                         <Link to='/projects'>Projects</Link>

@@ -1,0 +1,16 @@
+footer {
+    border-color: var(--niceTeal);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer a {
+    background-color: var(--pastelBlue);
+    flex: 1 1;
+    padding: 3px;
+}
+
+footer a:hover {
+    background-image: linear-gradient(rgb(128, 186, 255), rgba(0, 0, 0, 0));
+}
