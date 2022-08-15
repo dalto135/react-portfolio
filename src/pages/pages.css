@@ -6,20 +6,23 @@
 
 .title {
     flex: 0.3 0.3;
-    text-align: right;
     border-width: 0;
     padding: 0;
     margin: 0;
 }
 
+.title h1 {
+    text-align: right;
+}
+
 @media screen and (max-width: 980px) {
-    .title {
+    .title h1 {
         text-align: left;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .title {
+    .title h1 {
         text-align: center;
     }
 }

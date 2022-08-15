@@ -5,8 +5,8 @@ import Aboutme from './pages/aboutme';
 import Projects from './pages/projects';
 import Contactme from './pages/contactme';
 import Footer from './components/footer';
-import './reset.css';
 import './style.css';
+// import './styleLightMode.css';
 
 function App() {
   return (

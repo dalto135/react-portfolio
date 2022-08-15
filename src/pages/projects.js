@@ -85,7 +85,7 @@ function Projects() {
             <div className="content" id="work">
 
                 {/* {projects.map((project, i) => 
-                        <Project key={i} title={project.title} link={project.link} screenshot={project.screenshot} description={project.description} github={project.github}/>
+                    <Project key={i} title={project.title} link={project.link} screenshot={project.screenshot} description={project.description} github={project.github}/>
                 )} */}
                 
                 {/* Row one projects */}

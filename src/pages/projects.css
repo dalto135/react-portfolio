@@ -11,9 +11,10 @@
     /* background-color: var(--pastelTeal); */
     /* background-color: rgb(40, 48, 64); */
     background: none;
-    color: white;
+    color: var(--projectTitle);
     border-width: 0px;
     padding: 0px;
+    margin: 6px;
     /* text-shadow: black 3px 3px 3px; */
 }
 

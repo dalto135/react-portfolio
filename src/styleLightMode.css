@@ -1,6 +1,6 @@
 :root {
     /* Regular colors */
-    --grey: rgb(32, 32, 40);
+    --grey: rgb(241, 241, 247);
     --blue: rgb(0, 0, 64);
     --teal: rgb(0, 80, 80);
     --niceTeal: rgb(0, 96, 128);
@@ -16,10 +16,11 @@
 
     /* Pastel colors */
     --defaultColor: black;
-    --textColor: rgba(255, 255, 255, 0.75);
-    --cloudy: rgba(255, 255, 255, 0.5);
+    --textColor: rgba(0, 0, 0, 0.75);
+    --cloudy: rgba(0, 0, 0, 0.5);
+    --darkCloudy: rgba(0, 0, 0, 0.25);
     --visionCloudy: rgba(255, 255, 255, 0.5);
-    --projectTitle: white;
+    --projectTitle: black;
     --transparent: rgba(0, 0, 0, 0);
 
     --pastelGreen: rgba(144, 223, 160, 0.75);
@@ -57,7 +58,7 @@ div {
 }
 
 h1, h2, a, button, form {
-    background-color: var(--cloudy);
+    background-color: var(--darkCloudy);
     padding: 3px;
 }
 

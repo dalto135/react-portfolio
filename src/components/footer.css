@@ -12,5 +12,5 @@ footer a {
 }
 
 footer a:hover {
-    background-image: linear-gradient(rgb(128, 186, 255), rgba(0, 0, 0, 0));
+    background-image: var(--blueGradient);
 }
