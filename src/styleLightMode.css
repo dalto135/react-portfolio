@@ -11,14 +11,14 @@
     
     /* Gradients */
     --linkGradient: linear-gradient(rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
-    --blueGradient: linear-gradient(rgb(128, 186, 255), rgba(0, 0, 0, 0));
-    --greenGradient: linear-gradient(rgb(144, 223, 160), rgba(0, 0, 0, 0));
+    --blueGradient: linear-gradient(rgb(191, 220, 255), rgba(0, 0, 0, 0));
+    --greenGradient: linear-gradient(rgb(181, 250, 195), rgba(0, 0, 0, 0));
 
     /* Pastel colors */
     --defaultColor: black;
     --textColor: rgba(0, 0, 0, 0.75);
     --cloudy: rgba(0, 0, 0, 0.5);
-    --darkCloudy: rgba(0, 0, 0, 0.25);
+    --darkCloudy: rgba(0, 0, 0, 0.125);
     --visionCloudy: rgba(255, 255, 255, 0.5);
     --projectTitle: black;
     --transparent: rgba(0, 0, 0, 0);
