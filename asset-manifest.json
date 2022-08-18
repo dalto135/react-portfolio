@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2737dd5f.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.d817a844.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.d817a844.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.ab4f4853.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.ab4f4853.js.map",
-    "static/js/2.f49bbbea.chunk.js": "/react-portfolio/static/js/2.f49bbbea.chunk.js",
-    "static/js/2.f49bbbea.chunk.js.map": "/react-portfolio/static/js/2.f49bbbea.chunk.js.map",
-    "static/js/3.445a45d5.chunk.js": "/react-portfolio/static/js/3.445a45d5.chunk.js",
-    "static/js/3.445a45d5.chunk.js.map": "/react-portfolio/static/js/3.445a45d5.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.faee04cb.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.0fe638df.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.0fe638df.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.9037e952.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.9037e952.js.map",
+    "static/js/2.336cd239.chunk.js": "/react-portfolio/static/js/2.336cd239.chunk.js",
+    "static/js/2.336cd239.chunk.js.map": "/react-portfolio/static/js/2.336cd239.chunk.js.map",
+    "static/js/3.5320fa44.chunk.js": "/react-portfolio/static/js/3.5320fa44.chunk.js",
+    "static/js/3.5320fa44.chunk.js.map": "/react-portfolio/static/js/3.5320fa44.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.2737dd5f.chunk.css.map": "/react-portfolio/static/css/main.2737dd5f.chunk.css.map",
-    "static/js/2.f49bbbea.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.f49bbbea.chunk.js.LICENSE.txt",
+    "static/css/main.faee04cb.chunk.css.map": "/react-portfolio/static/css/main.faee04cb.chunk.css.map",
+    "static/js/2.336cd239.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.336cd239.chunk.js.LICENSE.txt",
     "static/media/bread-exchange.2c165ddf.png": "/react-portfolio/static/media/bread-exchange.2c165ddf.png",
     "static/media/coding-quiz-challenge.ec96de8f.png": "/react-portfolio/static/media/coding-quiz-challenge.ec96de8f.png",
     "static/media/dine-or-dash.b23ebd54.png": "/react-portfolio/static/media/dine-or-dash.b23ebd54.png",
@@ -24,9 +24,9 @@
     "static/media/weather-dashboard.6154b40a.png": "/react-portfolio/static/media/weather-dashboard.6154b40a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab4f4853.js",
-    "static/js/2.f49bbbea.chunk.js",
-    "static/css/main.2737dd5f.chunk.css",
-    "static/js/main.d817a844.chunk.js"
+    "static/js/runtime-main.9037e952.js",
+    "static/js/2.336cd239.chunk.js",
+    "static/css/main.faee04cb.chunk.css",
+    "static/js/main.0fe638df.chunk.js"
   ]
 }
