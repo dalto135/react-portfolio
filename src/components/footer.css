@@ -3,6 +3,7 @@ footer {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    margin: 3px;
 }
 
 footer a {

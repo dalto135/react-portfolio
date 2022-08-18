@@ -41,13 +41,18 @@
     font-family: eurostile, Helvetica, Arial, sans-serif;
     font-weight: normal;
     color: var(--defaultColor);
+    overflow-wrap: break-word;
+}
+
+header, section, footer {
+    border-radius: 12px;
 }
 
 html {
     background: var(--grey);
     border: None;
-    margin: 0;
-    padding: 0;
+    margin: 3px;
+    padding: 0px;
 }
 
 body {

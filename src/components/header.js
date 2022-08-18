@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom';
 import Headshot from '../assets/images/headshot.jpg';
 import './components.css';
 import './header.css';
-import toggleTheme from '../App'
 
-function Header() {
+function Header({toggleTheme}) {
     return (
         <div id='header-div'>
             <header>
@@ -23,8 +22,8 @@ function Header() {
                         <a href='https://drive.google.com/file/d/19fEXc-UwH_rd4qKfTBPd_yd3_9uusd6c/view?usp=sharing' target='_blank' rel='noreferrer'>Resume</a>
                         {/* <a href='https://drive.google.com/file/d/14IgY0ERipLtSLQX5bAk-OVvs_JuXVkxk/view?usp=sharing' target='_blank' rel='noreferrer'>Brand Statement</a> */}
                     </div>
-
-                    {/* <button onClick={toggleTheme} id="lightDarkButton">Light/Dark Mode</button> */}
+                    
+                    <button onClick={toggleTheme} id="lightDarkButton">Light/Dark Mode</button>
                 </div>
             </header>
 
