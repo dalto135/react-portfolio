@@ -6,8 +6,15 @@
     margin: 0px 3px;
     padding: 0px;
     text-align: center;
-    /* background-color: rgb(40, 48, 64); */
-    /* width: 50%; */
+    background-color: rgba(128, 128, 128, 0.125);
+}
+
+#light .small {
+    background-color: rgba(120, 138, 143, 0.188);
+}
+
+#light .small, #light .small img, #light .small p {
+    border-color: var(--cloudyBorderLightMode);
 }
 
 .small a {
@@ -27,8 +34,6 @@
 .small p {
     height: 180px;
     overflow: scroll;
-    /* background: none; */
-    /* color: rgba(255, 255, 255, 0.75); */
     border-radius: 0px;
     border-color: var(--cloudy);
     border-width: 1px 0px;
@@ -40,8 +45,16 @@
     background-image: var(--blueGradient);
 }
 
+#light .project:hover {
+    background-image: var(--blueGradientLightMode);
+}
+
 .github:hover {
     background-image: var(--greenGradient);
+}
+
+#light .github:hover {
+    background-image: var(--greenGradientLightMode);
 }
 
 .project {
@@ -51,9 +64,17 @@
     display: flex;
 }
 
+#light .project {
+    background-color: var(--pastelBlue);
+}
+
 .github {
     background-color: var(--pastelGreen);
     margin: 6px 6px 6px 3px;
+}
+
+#light .github {
+    background-color: var(--pastelGreen);
 }
 
 @media screen and (max-width: 768px) {

@@ -11,6 +11,14 @@ footer a {
     padding: 3px;
 }
 
+#light footer a {
+    background-color: var(--pastelBlue);
+}
+
 footer a:hover {
     background-image: var(--blueGradient);
+}
+
+#light footer a:hover {
+    background-image: var(--blueGradientLightMode);
 }

@@ -8,6 +8,7 @@ header {
     display: block;
     border-color: var(--niceTeal);
     border-width: 1px;
+    margin: 3px;
 }
 
 header h1 {
@@ -25,7 +26,6 @@ header h1 {
 }
 
 #name h1 {
-    /* font-size: 4vw; */
     border-color: var(--defaultColor);
     background-color: var(--pastelBlue);
     margin-bottom: 0px;
@@ -69,7 +69,7 @@ header h1 {
     border-color: var(--defaultColor);
 }
 
-#image h1, form {
+#image h1 {
     background-color: var(--visionCloudy);
     border-width: 1px;
     padding: 3px;
@@ -77,22 +77,8 @@ header h1 {
     text-align: center;
 }
 
-form {
-    margin: 0px 3px 6px;
-    /* background-color: var(--darkCloudy); */
-}
-
-form:hover {
-    background-image: var(--linkGradient);
-}
-
-form label {
-    border: None;
-    font-size: 12pt;
-}
-
-form input {
-    border: 1px solid black;
+#light #image h1 {
+    background-color: var(--visionCloudy);
 }
 
 @media screen and (max-width: 980px) {
