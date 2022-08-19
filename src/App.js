@@ -7,26 +7,25 @@ import Contactme from './pages/contactme';
 import Footer from './components/footer';
 import './style.css';
 
+let parent = document.querySelector("html");
+
 function setTheme() {
-  let parent = document.querySelector("html");
   let date = new Date();
   let time = date.getHours();
 
-  if (time < 8 || time > 21) {
-    parent.setAttribute("id", "dark");
-  }
-  else {
+  if (time >= 8 && time < 21) {
     parent.setAttribute("id", "light");
   }
+  // else {
+  //   parent.setAttribute("id", "light");
+  // }
 }
 
 setTheme();
 
 function toggleTheme() {
-  let parent = document.querySelector("html");
-
   if (parent.getAttribute("id") === "light") {
-    parent.setAttribute("id", "dark");
+    parent.removeAttribute("id");
   }
   else {
     parent.setAttribute("id", "light");
