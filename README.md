@@ -23,6 +23,7 @@ A portfolio website designed to both provide my personal information and demonst
 ![Screenshot 1](./src/assets/images/screenshot1.png)
 ![Screenshot 2](./src/assets/images/screenshot2.png)
 ![Screenshot 3](./src/assets/images/screenshot3.png)
+![Screenshot 4](./src/assets/images/screenshot4.png)
 
 ## License
 MIT
