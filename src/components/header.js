@@ -12,7 +12,7 @@ function Header({toggleTheme}) {
                     <h1>Dalton Wilkins</h1>
                 </div>
                 
-                <div className='headshot'>
+                <div id='headshot'>
                     <img src={Headshot} alt='headshot'/>
 
                     <div id="shortcuts">

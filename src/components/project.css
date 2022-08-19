@@ -1,4 +1,4 @@
-.small {
+.project {
     justify-content: flex-end;
     border: 1px solid var(--cloudy);
     display: flex;
@@ -9,29 +9,11 @@
     background-color: rgba(128, 128, 128, 0.125);
 }
 
-#light .small {
+#light .project {
     background-color: rgba(120, 138, 143, 0.188);
 }
 
-#light .small, #light .small img, #light .small p {
-    border-color: var(--cloudyBorderLightMode);
-}
-
-.small a {
-    font-size: 24pt;
-}
-
-.small img {
-    max-width: 100%;
-    flex: 1 1;
-    padding: 0;
-    margin: 0;
-    border-radius: 0px;
-    border-width: 1px 0px 0px 0px;
-    border-color: var(--cloudy);
-}
-
-.small p {
+.project p {
     height: 180px;
     overflow: scroll;
     border-radius: 0px;
@@ -41,31 +23,41 @@
     padding: 6px;
 }
 
-.project:hover {
-    background-image: var(--blueGradient);
+.project a {
+    font-size: 24pt;
 }
 
-#light .project:hover {
-    background-image: var(--blueGradientLightMode);
+.project img {
+    max-width: 100%;
+    flex: 1 1;
+    padding: 0;
+    margin: 0;
+    border-radius: 0px;
+    border-width: 1px 0px 0px 0px;
+    border-color: var(--cloudy);
 }
 
-.github:hover {
-    background-image: var(--greenGradient);
+#light .project, #light .project p, #light .project img {
+    border-color: var(--cloudyBorderLightMode);
 }
 
-#light .github:hover {
-    background-image: var(--greenGradientLightMode);
-}
-
-.project {
+.deployedProject {
     background-color: var(--pastelBlue);
     margin: 6px 3px 6px 6px;
     text-align: center;
     display: flex;
 }
 
-#light .project {
+#light .deployedProject {
     background-color: var(--pastelBlue);
+}
+
+.deployedProject:hover {
+    background-image: var(--blueGradient);
+}
+
+#light .deployedProject:hover {
+    background-image: var(--blueGradientLightMode);
 }
 
 .github {
@@ -77,23 +69,31 @@
     background-color: var(--pastelGreen);
 }
 
+.github:hover {
+    background-image: var(--greenGradient);
+}
+
+#light .github:hover {
+    background-image: var(--greenGradientLightMode);
+}
+
 @media screen and (max-width: 768px) {
-    .small {
+    .project {
         margin: 6px 3px;
         justify-content: center;
     }
 
-    .small p {
+    .project p {
         height: 120px;
     }
 
-    .small a {
+    .project a {
         font-size: 16pt;
     }
 }
 
-@media screen and (max-width: 305px) {
-    .project {
+@media screen and (max-width: 296px) {
+    .deployedProject {
         margin: 6px;
     }
 

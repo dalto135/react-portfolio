@@ -4,12 +4,12 @@ import './contactme.css';
 
 function Contactme() {
     return (
-        <section id="contact-me">
-            <div className="title">
+        <section className="page" id="contactMe">
+            <div className="pageTitle" id="contactMeTitle">
                 <h1>Contact Me</h1>
             </div>
             
-            <address className="content">
+            <address className="pageContent" id="contactMeContent">
                 <a href="tel:+16142577681">614-257-7681</a>
                 <a href="mailto:daltongh@gmail.com">daltongh@gmail.com</a>
                 <a href="https://www.linkedin.com/in/dalton-wilkins/" target="_blank" rel='noreferrer'>LinkedIn</a>

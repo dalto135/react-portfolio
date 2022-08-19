@@ -1,15 +1,23 @@
-.content a {
+address {
+    flex: 1 1;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+address a {
     max-width: 90%;
 }
 
 @media screen and (max-width: 980px) {
-    #contact-me a {
+    #contactMe a {
         margin: 0px 3px 6px 3px;
     }
 }
 
-@media screen and (max-width: 571px) {
-    .content {
+@media screen and (max-width: 556px) {
+    #contactMeContent {
         flex-direction: column;
     }
 }

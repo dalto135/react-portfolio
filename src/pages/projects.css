@@ -1,10 +1,4 @@
-#work {
-    border-width: 0;
-    padding: 0;
-    margin: 0;
-}
-
-#work h2 {
+#projectsContent h2 {
     text-align: center;
     background: none;
     color: var(--projectTitle);
@@ -13,11 +7,11 @@
     margin: 6px;
 }
 
-#light #work h2 {
+#light #projectsContent h2 {
     color: var(--projectTitleLightMode);
 }
 
-.big {
+.projectRow {
     border: 0;
     margin: 6px 0px;
     padding: 0;
@@ -25,12 +19,12 @@
     flex-wrap: wrap;
 }
 
-.big a {
+.projectRow a {
     font-size: 16pt;
 }
 
 @media screen and (max-width: 768px) {
-    .big {
+    .projectRow {
         display: block;
     }
 }

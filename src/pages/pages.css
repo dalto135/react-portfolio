@@ -1,28 +1,36 @@
-.content {
+.page {
+    border-color: var(--green);
+}
+
+#light .page {
+    border-color: var(--greenLightMode);
+}
+
+.pageContent {
     border-width: 0;
     padding: 0;
     margin: 0;
 }
 
-.title {
+.pageTitle {
     flex: 0.3 0.3;
     border-width: 0;
     padding: 0;
     margin: 0;
 }
 
-.title h1 {
+.pageTitle h1 {
     text-align: right;
 }
 
 @media screen and (max-width: 980px) {
-    .title h1 {
+    .pageTitle h1 {
         text-align: left;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .title h1 {
+    .pageTitle h1 {
         text-align: center;
     }
 }

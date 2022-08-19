@@ -77,19 +77,19 @@ function Projects() {
     ];
 
     return (
-        <section id="work-me">
-            <div className="title">
+        <section className="page" id="projects">
+            <div className="pageTitle" id="projectsTitle">
                 <h1>Projects</h1>
             </div>
             
-            <div className="content" id="work">
+            <div className="pageContent" id="projectsContent">
 
                 {/* {projects.map((project, i) => 
                     <Project key={i} title={project.title} link={project.link} screenshot={project.screenshot} description={project.description} github={project.github}/>
                 )} */}
                 
                 {/* Row one projects */}
-                <div className="big">
+                <div className="projectRow">
 
                     <Project title={projects[0].title} link={projects[0].link} screenshot={projects[0].screenshot} description={projects[0].description} github={projects[0].github}/>
 
@@ -98,7 +98,7 @@ function Projects() {
                 </div>
                 
                 {/* Row two projects */}
-                <div className="big">
+                <div className="projectRow">
 
                     <Project title={projects[2].title} link={projects[2].link} screenshot={projects[2].screenshot} description={projects[2].description} github={projects[2].github}/>
 
@@ -107,7 +107,7 @@ function Projects() {
                 </div>
 
                 {/* Row three projects */}
-                <div className="big">
+                <div className="projectRow">
 
                     <Project title={projects[4].title} link={projects[4].link} screenshot={projects[4].screenshot} description={projects[4].description} github={projects[4].github}/>
 
@@ -116,7 +116,7 @@ function Projects() {
                 </div>
 
                 {/* Row four projects */}
-                {/* <div className="big">
+                {/* <div className="projectRow">
 
                     <Project title={projects[6].title} link={projects[6].link} screenshot={projects[6].screenshot} description={projects[6].description} github={projects[6].github}/>
 

@@ -11,6 +11,10 @@ header {
     margin: 3px;
 }
 
+#light header {
+    border-color: var(--niceTealLightMode);
+}
+
 header h1 {
     background-color: var(--transparent);
     display: flex;
@@ -31,7 +35,7 @@ header h1 {
     margin-bottom: 0px;
 }
 
-.headshot {
+#headshot {
     border: 0px;
     margin: 0px;
     padding: 0px;
@@ -41,7 +45,7 @@ header h1 {
     justify-content: center;
 }
 
-.headshot img {
+#headshot img {
     max-width: 100%;
     max-height: 300px;
     padding: 0px;
@@ -95,3 +99,9 @@ header h1 {
         font-size: 18pt;
     }
 }
+
+/* @media screen and (max-width: 432px) {
+    #shortcuts {
+        flex-direction: column;
+    }
+} */
