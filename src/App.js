@@ -16,9 +16,6 @@ function setTheme() {
   if (time >= 8 && time < 21) {
     parent.setAttribute("id", "light");
   }
-  // else {
-  //   parent.setAttribute("id", "light");
-  // }
 }
 
 setTheme();
