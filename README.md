@@ -17,7 +17,7 @@ https://dalto135.github.io/react-portfolio/
 HTML and CSS, Javascript, React
 
 ## Description
-A portfolio website designed to both provide my personal information and demonstrate various skills using HTML, CSS and React. For the displayed work, I have included various projects I have created that demonstrate various skills. Links to the deployed apps and github sites are available in this section.
+A portfolio website designed to both provide my personal information and demonstrate various skills using HTML, CSS and React. For the displayed work, I have included various projects I have created that demonstrate various skills. Links to the deployed apps and github sites are available in this section. Site theme can be toggled between light and dark mode.
 
 ## Screenshots
 ![Screenshot 1](./src/assets/images/screenshot1.png)
