@@ -14,15 +14,17 @@ function Header({toggleTheme}) {
                 
                 <div id='headshot'>
                     <img src={Headshot} alt='headshot'/>
+                </div>
 
-                    <div id="shortcuts">
-                        <Link to='/'>About Me</Link>
-                        <Link to='/projects'>Projects</Link>
-                        <Link to='/contactme'>Contact Me</Link>
-                        <a href='https://drive.google.com/file/d/19fEXc-UwH_rd4qKfTBPd_yd3_9uusd6c/view?usp=sharing' target='_blank' rel='noreferrer'>Resume</a>
-                        {/* <a href='https://drive.google.com/file/d/14IgY0ERipLtSLQX5bAk-OVvs_JuXVkxk/view?usp=sharing' target='_blank' rel='noreferrer'>Brand Statement</a> */}
-                    </div>
-                    
+                <div id="shortcuts">
+                    <Link to='/'>About Me</Link>
+                    <Link to='/projects'>Projects</Link>
+                    <Link to='/contactme'>Contact Me</Link>
+                    <a href='https://drive.google.com/file/d/19fEXc-UwH_rd4qKfTBPd_yd3_9uusd6c/view?usp=sharing' target='_blank' rel='noreferrer'>Resume</a>
+                    {/* <a href='https://drive.google.com/file/d/14IgY0ERipLtSLQX5bAk-OVvs_JuXVkxk/view?usp=sharing' target='_blank' rel='noreferrer'>Brand Statement</a> */}
+                </div>
+
+                <div id="lightDark">
                     <button onClick={toggleTheme} id="lightDarkButton">Light/Dark Mode</button>
                 </div>
             </header>
