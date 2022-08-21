@@ -135,7 +135,7 @@ a:hover, button:hover {
 
 /* Organization of elements changes at varying screen widths */
 @media screen and (max-width: 980px) {
-    section, #projectsContent {
+    section {
         display: block;
     }
 }
