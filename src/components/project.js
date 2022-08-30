@@ -3,9 +3,6 @@ import './components.css';
 import './project.css';
 
 function Project(props) {
-
-    // const { title, link, screenshot, description, github } = props;
-
     return (
         <div className="project">
             <h2>{props.title}</h2>

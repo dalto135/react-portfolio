@@ -98,7 +98,6 @@ p {
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
     color: var(--textColor);
-    border: None;
     padding: 0px;
 }
 
