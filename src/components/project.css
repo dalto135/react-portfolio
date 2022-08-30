@@ -4,7 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0px 3px;
-    padding: 0px;
     text-align: center;
     background-color: rgba(128, 128, 128, 0.125);
 }

@@ -63,12 +63,6 @@ body {
     padding: 0px;
 }
 
-#root {
-    border-width: 0;
-    margin: 0;
-    padding: 0;
-}
-
 header, section, footer {
     border-radius: 12px;
 }
@@ -78,6 +72,9 @@ section {
 }
 
 div {
+    border: None;
+    margin: 0px;
+    padding: 0px;
     flex: 1 1;
     align-items: center;
 }
@@ -101,7 +98,7 @@ p {
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
     color: var(--textColor);
-    border-width: 0px;
+    border: None;
     padding: 0px;
 }
 

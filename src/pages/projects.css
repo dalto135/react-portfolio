@@ -12,9 +12,7 @@
 }
 
 .projectRow {
-    border: 0;
     margin: 6px 0px;
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
 }
