@@ -6,6 +6,7 @@
     margin: 0px 3px;
     text-align: center;
     background-color: rgba(128, 128, 128, 0.125);
+    max-width: 50%;
 }
 
 #light .project {
@@ -80,6 +81,7 @@
     .project {
         margin: 6px 3px;
         justify-content: center;
+        max-width: None;
     }
 
     .project p {
