@@ -13,11 +13,7 @@ import TechBlog from '../assets/images/tech-blog.png';
 import CodingQuizChallenge from '../assets/images/coding-quiz-challenge.png';
 import EmployeeTracker from '../assets/images/employee-tracker.png';
 
-
-
-
 function Projects() {
-
     let projects = [
         {
             title: 'Bread Exchange',
