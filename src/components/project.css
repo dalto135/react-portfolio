@@ -77,6 +77,14 @@
     background-image: var(--greenGradientLightMode);
 }
 
+.project a:active, .project button:active {
+    background-image: None;
+}
+
+#light .project a:active, #light .project button:active {
+    background-image: None;
+}
+
 @media screen and (max-width: 768px) {
     .project {
         margin: 6px 3px;

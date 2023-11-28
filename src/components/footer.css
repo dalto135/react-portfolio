@@ -27,3 +27,11 @@ footer a:hover {
 #light footer a:hover {
     background-image: var(--blueGradientLightMode);
 }
+
+footer a:active {
+    background-image: None;
+}
+
+#light footer a:active {
+    background-image: None;
+}

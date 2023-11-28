@@ -129,6 +129,10 @@ a:hover, button:hover {
     background-image: var(--linkGradient);
 }
 
+a:active, button:active {
+    background-image: None;
+}
+
 /* Organization of elements changes at varying screen widths */
 @media screen and (max-width: 980px) {
     section {
